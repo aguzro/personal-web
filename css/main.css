@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+/*=======  Color de textos  ========*/
+/*===== Columnas sin padding =====*/
+/*===== Textos =====*/
+/*===== Im├ígenes =====*/
+/*===== Espacios =====*/
+/*===== Efecto =====*/
+/*===== Nav =====*/
+nav {
+  background: black; }
+  nav .nav-link:hover {
+    color: black;
+    background-color: white; }
+
+/*===== About Me =====*/
+.parallax-container {
+  padding-top: 7%;
+  padding-bottom: 3%;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 36%, rgba(0, 0, 0, 0.65) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 36%, rgba(0, 0, 0, 0.65) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 36%, rgba(0, 0, 0, 0.65) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#a6000000',GradientType=0 );
+  /* IE6-9 */ }
+  .parallax-container h1 {
+    font-weight: bold;
+    color: white;
+    font-family: Raleway;
+    text-transform: capitalize; }
+  .parallax-container p {
+    font-size: 1.3em;
+    color: white;
+    font-family: Raleway; }
+  .parallax-container hr {
+    width: 20%;
+    border: 3px solid white; }
+
+/*===== Quotes =====*/
+.pad {
+  padding-top: 3%;
+  padding-bottom: 3%; }
+
+.img-des {
+  max-width: 80%;
+  height: auto; }
+
+h3 {
+  font-weight: bold;
+  color: black;
+  font-family: Raleway;
+  text-transform: capitalize;
+  text-align: left; }
+
+p {
+  font-size: 1em;
+  color: black;
+  font-family: Raleway;
+  text-align: left; }
+
+hr {
+  width: 20%;
+  border: 3px solid black;
+  margin-left: -0.5%; }
+
+.media {
+  margin-bottom: 5%; }
+  .media i {
+    display: inline; }
+  .media p {
+    display: inline !important;
+    font-size: 0.9em;
+    color: #d8d8d8 darken 10%;
+    font-family: Raleway; }
+
+/*===== Hide and Seek =====*/
+.s-video h3 {
+  font-weight: bold;
+  color: white;
+  font-family: Raleway;
+  text-transform: capitalize;
+  text-align: left; }
+.s-video p {
+  font-size: 1em;
+  color: white;
+  font-family: Raleway;
+  text-align: left; }
+.s-video hr {
+  width: 20%;
+  border: 3px solid white;
+  margin-left: -0.5%; }
+
+/*===== Me Define =====*/
+.col-pd .no-padding-left {
+  padding-left: 0 !important; }
+.col-pd .no-padding-right {
+  padding-right: 0 !important; }
+.col-pd .no-padding-top {
+  padding-top: 0 !important; }
+.col-pd .no-padding-bottom {
+  padding-bottom: 0 !important; }
+
+.img-def {
+  max-width: 100%;
+  height: auto; }
+  .img-def :hover {
+    filter: grayscale(100%); }
+
+/*===== Footer =====*/
+footer {
+  background-color: white !important;
+  /* label color */
+  /* label focus color */
+  /* label underline focus color */
+  /* valid color */
+  /* icon prefix focus color */ }
+  footer h3 {
+    font-weight: bold;
+    color: #d8d8d8 darken 10%;
+    font-family: Raleway;
+    text-transform: capitalize;
+    text-align: left; }
+  footer p {
+    font-size: 1em;
+    color: #d8d8d8 darken 10%;
+    font-family: Raleway;
+    text-align: left; }
+  footer .input-field label {
+    color: #000; }
+  footer .input-field input[type=text]:focus + label {
+    color: #000; }
+  footer .input-field textarea[id=textarea1]:focus + label {
+    color: #000; }
+  footer .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000; }
+  footer .input-field textarea[id=textarea1]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000; }
+  footer .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000; }
+  footer .input-field .prefix.active {
+    color: #000; }
+  footer .footer-copyright {
+    background-color: black !important; }
+    footer .footer-copyright p {
+      padding-bottom: 1%;
+      font-size: 1em;
+      color: white;
+      font-family: Raleway;
+      text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
